@@ -1,0 +1,37 @@
+{
+	"Package": "Utility",
+	"Author": "AVerMedia",
+	"Widget Category": "com.avermedia.widget.CPP.clock",
+	"Title": "Clock(Qt)",
+	"Subtitle": "Clock(Qt)",
+	"Widget Version": "1.0",
+	"Runtime Information": {
+		"mac": {
+			"Minimum Version": "10.15",
+			"Format": "bin",
+			"Target": "ClockWidget_CPlusPlus.app"
+		},
+		"win": {
+			"Minimum Version": "10",
+			"Format": "bin",
+			"Target": "ClockWidget_CPlusPlus/ClockWidget_CPlusPlus.exe"
+		}
+	},
+	"Property Path": "property/index.html",
+	"Type": "widget",
+	"Width": 1,
+	"Height": 1,
+	"Icon": "images/clock.svg",
+	"States": [
+		{
+			"Title": "Clock",
+			"Image": "images/clock.svg"
+		}
+	],
+	"Tooltip": "Widget Clock (Qt)",
+	"Url": "https://www.avermedia.com",
+	"Compatible": {
+		"SDK Version": "1.0",
+		"App Version": "1.1"
+	}
+}

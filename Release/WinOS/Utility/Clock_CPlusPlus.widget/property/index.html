@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Widget</title>
+    <link rel="stylesheet" href="css/avt.css">
+</head>
+<body>
+    <script src="js/common_property.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/localization.js"></script>
+    <script src="js/property_main.js"></script>
+    <div class="avt-wrapper">
+        <div class="avt-item" >
+            <div class="avt-item-label LAB_WIDGET_CITY">City</div>
+            <select class="avt-item-value select" id="js_collection" onchange="get_city_val(this)">
+                <option class="LAB_WIDGET_TAIPEI" value="taipei" selected>Taipei</option>
+                <option class="LAB_WIDGET_NEW_YORK" value="new_york">New York</option>
+                <option class="LAB_WIDGET_CALIFORNIA" value="california">California</option>
+            </select>
+            <div class="avt-item-label LAB_WIDGET_TYPE">Type</div>
+            <select class="avt-item-value select" id="js_type" onchange="get_type_val(this)">
+                <option class="LAB_WIDGET_DIGITAL" value="digital" selected>Digital</option>
+                <option class="LAB_WIDGET_ANALOG" value="analog">Analog</option>
+            </select>
+        </div>
+    </div>
+    
+</body>
+</html>

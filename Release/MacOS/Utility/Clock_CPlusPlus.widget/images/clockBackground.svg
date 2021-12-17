@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="150" height="108" viewBox="0 0 150 108" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a{fill:#ffffff;}.b{fill:none;font-size:20px;font-family:SegoeUI, Segoe UI;}.c{fill:#fff;}</style>
+  </defs>
+  <path class="a" d="M0,0H150V108H0Z"/>
+  <text class="b" transform="translate(0 72)" style="white-space: pre;"><tspan x="37.905" y="22">Zoom In</tspan></text>
+</svg>

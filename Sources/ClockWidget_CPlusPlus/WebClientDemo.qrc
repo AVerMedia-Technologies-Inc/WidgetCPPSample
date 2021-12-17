@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/WebClientDemo">
+        <file>Resource/Blank.png</file>
+        <file>Resource/ClockBMP.bmp</file>
+        <file>Resource/ClockJPG.jpg</file>
+    </qresource>
+</RCC>
